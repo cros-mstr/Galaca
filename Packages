@@ -1,0 +1,65 @@
+Package: com.galaca.mergedbundle
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Josh D.
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.galaca.LegaStore.deb
+Size: 132784
+MD5sum: 236865a3cb7ce9ddc56f414088795596
+SHA1: eeabc748cc5441acc1624c42f6f4f0a4b580faea
+SHA256: b92b1ae85f950bcb766e0d0e7fdedeeb97ecc6f6505f658d17a59090a90d52f5
+Section: Tweaks
+Description: Combines packages from Nekokawa, SkyGlow to one easy to install package to fix your appstore!
+Author: Original Authors
+Name: Galaca's LegaStore Compilation
+
+Package: com.skyglow.itunesstorex
+Version: 2.5
+Architecture: iphoneos-arm
+Maintainer: Requis, Bag.xml
+Installed-Size: 312
+Depends: mobilesubstrate, firmware(<==7.9)
+Filename: ./debs/com.skyglow.itunesstorex_2.5_iphoneos-arm.deb
+Size: 106508
+MD5sum: fe7579e05ac248a38df0a065fc92f6dc
+SHA1: 06ab5ef2a70520f97669afec34f16a2b3e765ba1
+SHA256: c8ff8a6d141ed09f28a9ae8c8bdb793dfaddd5cc0b221065f5fe02d663038c1c
+Section: Tweaks
+Description: This tweak fixes any storefront. It fixes every app's connection issues with the iTunes Store, as of recent changes made by Apple, this tweak does not allow to download apps.
+Author: Requis, Bag.xml
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.itunesstorex/depictions/index.html
+Icon: file:///Library/Application%20Support/com.skyglow.itunesstorex/iTunesStoreX-Icon.png
+Name: iTunesStoreX
+
+Package: com.skyglow.tlsfix
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: nfzerox, Requis
+Depends: mobilesubstrate
+Conflicts: com.tlsfix
+Filename: ./debs/com.skyglow.tlsfix_1.0.0_iphoneos-arm.deb
+Size: 3311482
+MD5sum: 01eba9a694d45c8c856a2b20fd7687bb
+SHA1: 892f9052aa257ac26431a38cc372f0be244b643f
+SHA256: 95614de83d9035249a46e43f4b3350d612e4613341edfcc261431aaf128d435e
+Section: Tweaks
+Description: Fixes SSL/TLS protocols and communications from iPhoneOS 2 to iOS 9, so that these devices can talk to any modern cypher-enabled server or service again.
+Author: nfzerox, Requis
+Name: TLSFix
+
+Package: net.nekokawa.re5tore
+Version: 0.0.10-8+debug
+Architecture: iphoneos-arm
+Maintainer: nekokawa
+Installed-Size: 288
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0), firmware (<= 6.1.6), preferenceloader
+Filename: ./debs/net.nekokawa.re5tore_0.0.10-8+debug_iphoneos-arm.deb
+Size: 25210
+MD5sum: 40ab3f338750f2879af954911e67ee21
+SHA1: cdf972b84a1ee85d1e709c98ce6e4b1c87db5aec
+SHA256: 8b04e27d1560ce18cd38f3e7bd3f2de06bee3223648ef30797f292833177a750
+Section: Tweaks
+Description: Restores the hidden iOS 5 store on iOS 6!
+Author: nekokawa
+Name: Re5tore
+
